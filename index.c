@@ -1,3 +1,36 @@
+/*
+Questão A 
+Crie um programa que lê 10 valores inteiros, insere em um vetor e mostre na tela os valores lidos
+*/
+
+int main()
+{
+    int vetor[10];
+    int i;
+    
+    printf("Digite os valores: ");
+    for(i = 0; i <10; i++){
+        scanf("%d", &vetor[i]);
+    }
+    
+    for(i = 0; i <10; i++){
+        printf("%d : ", vetor[i]);
+    }
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*Faça um programa que receba do usuário um vetor com 10 posições. Em seguida deverá ser impresso o maior 
 e o menor elemento do vetor
 
